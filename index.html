@@ -1,0 +1,250 @@
+<html>
+<body>
+	<header>
+		<div id='cssmenu'>
+			<link rel="stylesheet" href="css/navbar.css">
+		<ul>
+			<li class='active'><a href='#'>Home</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Services</a></li>
+			<li><a href="">Contact Us</a></li>
+		</ul>
+	</header>
+
+
+<div id="image">
+	
+	<div class="slogan"><br><strong><h2>Domino Effect Fitness</h2></strong></div>
+		<div class="slogan2">We All Start Somewhere</div>
+
+</div>
+
+
+	<div class= "content1">
+		<h1>About Us</h1>
+
+			<p>Getting results is our business.</p>
+			 
+			<p>We are a New York City based team of Personal Trainers and our goal is to help our clients get in the best shape of their lives. We understand every person has different goals, but we also believe all clients want to look and feel great. Our program consists of a multifaceted and geared towards individuals who are serious about losing body fat and feeling stronger.</p>
+
+			<p>When we choose to take on a client we also make a commitment. Our reputation is put on the line and our goal becomes to insure you reach your objective. We follow up with our clients weekly and expect them to follow the custom meal plan and workout routines.</p>
+
+			<p>Be proud of the way you look and feel, its the first impression you make on the world everyday. Your body is the strongest tool for expressing who you truly are. Let us help you if your goal is to lose weight, gain muscle mass, get stronger, recover from a injury, and prevent injuries.</p>
+
+			<p>Fill out the form below for a PDF brochure of our services.</p>
+
+		</div>
+	</div>
+</div>
+
+<div class="pic2"></div>
+
+
+
+<div class="threecolumn">
+<div class="content2">
+	<h1><strong>How We Get You In Shape</strong></h1>
+   	<div class="column-center">
+   		<img src="img/icons/InPersonTraining.png" width="150" height="150"></img>
+   		<p>Our trainers work mainly in the New York City area. This includes Manhattan, Bronx, Queens, Brooklyn, Long Island, and Westchester county</p>
+   	</div>
+   	<div class="column-left">
+   		<img src="img/icons/MealPlan.png" width="150" height="150"></img>
+   		<p>We design meal plans catered to you and your specific goals. We include foods you enjoy in order to gaurantee you complete the meal plans.</p>
+   	</div>
+   	<div class="column-right">
+   		<img src="img/icons/VideoChat.png" width="150" height="150"></img>
+   		<p>We all have busy days and it is often easier to chat with our clients online to provide them the support they need.</p>
+   	</div>
+
+</div>
+
+<div class="threecolumn">
+<div class="content2">
+   	<div class="column-center">
+   		<img src="img/icons/Scale.png" width="150" height="150"></img>
+   		<p>Every week our clients on our weightloss program must take a photo of themselves on a scale. This will ensure that your trainer is effective and that you are being honest with yourself and your progress.</p>
+   	</div>
+   	<div class="column-left">
+   		<img src="img/icons/WorkoutPlan.png" width="150" height="150"></img>
+   		<p>Our workout plans are designed specifically for you. If your goal is to increase your squat, build a great physique, lose some weight, or you are recovering from an injury.</p>
+   	</div>
+   	<div class="column-right">
+   		<img src="img/icons/YouTube.png" width="150" height="150"></img>
+   		<p>Most of our ideas will be shared online through our YouTube channel. We will be going over what we eat, shop, lift, and wear. This is meant to inspire and educate our clients and general community</p>
+   	</div>
+  </div>
+</div>
+
+
+<div class="pic3"></div>
+
+
+	<div class="foot">
+		<footer>
+			<ul>
+				<li><h1>Domino Effect Fitness</h1></li>
+				<li><a href="">Home</a></li>
+				<li><a href="">Services</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</footer>
+	</div>
+
+
+</body>
+
+
+<script>
+		var ypos,image;
+		function parallex() {
+			image = document.getElementById('image');
+			ypos = window.pageYOffset;
+			image.style.top = ypos * .5+ 'px';
+		}
+
+		window.addEventListener('scroll', parallex),false;
+	</script>
+
+</html>
+
+<style>
+
+html{
+	background-color: #FFF9F0;
+}
+a {
+    color: white;
+    font-family: sans-serif;
+}
+
+a:hover{
+	color: #333333;
+	float: right;
+}
+
+h1{
+	font-family: sans-serif;
+	font-size: 110%;
+	height: 3%;
+}
+body,html{
+	height:100%;
+	max-width: 100%;
+	margin: 0;
+}
+
+ul{
+	color: white;
+	background-color: black;
+	margin: 0;
+	width: 100%;
+	position: fixed;
+}
+.nav-bar li{
+	display: inline-block;
+	font-size: 120%;
+	color: white;
+}
+
+#image{
+	background:url(img/DEF.jpeg);
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.threecolumn{
+	width: 100%;
+	margin-left: ;
+	position: center;
+}
+.column-left{ 
+	text-align: center;
+	float: left; width: 33%; 
+}
+.column-right{
+	text-align: center;
+	float: right; width: 33%; 
+}
+.column-center{
+	text-align: center;
+	display: inline-block; width: 33%; 
+}
+
+.content0{
+	background-size: cover;
+	height: 100%;
+}
+
+.content1{
+	font-family: century;
+	font-size: 125%;
+	text-align: center;
+
+	position: relative;
+	size: 10%;
+	background-color: #3d3d3d;
+	color: #CCBCA4;
+}
+
+.content1 p{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: Century Gothic, sans-serif;
+
+}
+
+.content2{
+	background-color:;
+	color: black;
+	font-family: Century Gothic, sans-serif;
+	text-align: Century Gothic, sans-serif;
+}
+.content2 p{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.pic2{
+	background:url(img/DEF2.jpeg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.pic3{
+	background:url(img/Path.jpg);
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.foot {
+	height: 10%;
+	background: red;
+	color: white;
+}
+
+.slogan{
+	text-align: center;
+	font-size: 200%;
+	color: black;
+	font-family: impact;
+}
+
+.slogan2{
+	text-align: center;
+	font-size: 75%;
+	color: black;
+	font-family: impact;
+}
+h2{
+
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+</style>
+
